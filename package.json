@@ -48,6 +48,7 @@
     "codelyzer": "0.0.19",
     "css-brunch": "^2.6.1",
     "environment-brunch": "^1.0.0",
+    "gh-pages": "^0.11.0",
     "html-brunch": "^1.6.1",
     "javascript-brunch": "^2.0.0",
     "tslint": "^3.9.0",
