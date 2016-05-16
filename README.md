@@ -1,3 +1,5 @@
+Go to the [Live Demo Site](https://sam-at-work.github.io/brunch-is-good/)
+
 # Brunch with Angular 2
 
 [![Join the chat at https://gitter.im/colinbate/ng2-brunch](https://badges.gitter.im/colinbate/ng2-brunch.svg)](https://gitter.im/colinbate/ng2-brunch?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
