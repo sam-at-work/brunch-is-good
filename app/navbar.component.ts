@@ -1,6 +1,6 @@
-import {Component} from '@angular/core';
-import {Location} from '@angular/common';
-import {ROUTER_DIRECTIVES} from '@angular/router';
+import {Component} from "@angular/core";
+import {Location} from "@angular/common";
+import {ROUTER_DIRECTIVES} from "@angular/router";
 
 @Component({
   selector: 'navbar',
@@ -23,7 +23,7 @@ import {ROUTER_DIRECTIVES} from '@angular/router';
       padding: 0.5em;
       display: inline-block;
     }
-    nav .active {
+    nav .router-link-active {
       
       background-color: #069;
       color: #fff;
@@ -33,10 +33,10 @@ import {ROUTER_DIRECTIVES} from '@angular/router';
     <nav>
       <ul>
         <li>
-          <a [routerLink]="['']" [class.active]="isActive('/')">Home</a>
+          <a [routerLink]="['/']" [class.active]="isActive('/')">Home</a>
         </li>
         <li>
-          <a [routerLink]="['about']" [class.active]="isActive('/about')">About</a>
+          <a [routerLink]="['/about']" [class.active]="isActive('/about')">About</a>
         </li>
       </ul>
     </nav>
